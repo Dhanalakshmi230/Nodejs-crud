@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding: 10px;
+    background: #0086fe;
+}
+
+.upload-box > p {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+}
+
+.upload-box {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.5);
+}
+
+.upload-box form {
+    height: 170px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #0086fe;
+}
+
+form :where(i, p) {
+    color: #0086fe;
+}
+
+form p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+form i {
+    font-size: 50px;
+}
+
+section .row {
+    margin-bottom: 10px;
+    background-color: #d5ebff;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .row i {
+    color: #0086fe;
+    font-size: 30px;
+}
+
+section .details span {
+    font-size: 12px;
+}
+
+.loading-area .row .content {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.loading-area .details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: space-between;
+}
+
+.loading-area .content .loading-bar {
+    height: 6px;
+    width: 100%;
+    margin-bottom: 4px;
+    background: #fff;
+    border-radius: 30px;
+}
+.content .loading-bar .loading{
+    height: 100%;
+    width: 10%;
+    background: #0086fe;
+    border-radius: inherit;
+}
+.uploaded-area{
+    overflow-y: scroll;
+}
+.uploaded-area.onprogress {
+    max-height: 150px;
+}
+
+.uploaded-area::-webkit-scrollbar {
+    width: 0px;
+}
+
+.uploaded-area .row .content {
+    display: flex;
+    align-items: center;
+}
+
+.uploaded-area .row .details {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.uploaded-area .row .details .size {
+    color: #404040;
+    font-size: 11px;
+}
+
+.uploaded-area i.fa-check {
+    font-size: 16px;
+}

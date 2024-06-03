@@ -34,6 +34,10 @@ const navigate= useNavigate()
                         <label htmlFor=''>Age</label>
                         <input type='text' placeholder='Enter Age' className='form-control' onChange={(e) => setAge(e.target.value)} />
                     </div>
+                     <div className='mb-2'>
+                        <label htmlFor=''>Age</label>
+                        <input type='text' placeholder='Enter Age' className='form-control' onChange={(e) => setAge(e.target.value)} />
+                    </div>
                     <button className='btn btn-success'>Submit</button>
                 </form>
             </div>
