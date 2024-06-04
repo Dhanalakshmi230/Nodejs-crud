@@ -1,0 +1,12 @@
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .details .name,
+  .details .size,
+  .details button {
+    margin: 0 10px;
+  }
+  
